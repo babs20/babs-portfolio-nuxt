@@ -1,0 +1,86 @@
+/**
+ * @license
+ *
+ * Font Family: Quilon
+ * Designed by: Jonny Pinhorn
+ * URL: https://www.fontshare.com/assets/fonts/quilon
+ * © 2022 Indian Type Foundry
+ *
+ * Font Styles:
+ * Quilon Variable(Variable font)
+ *
+*/
+
+/**
+* This is a variable font
+* You can controll variable axes as shown below:
+* font-variation-settings: 'wght' 400.0;
+*
+* available axes:
+
+* 'wght' (range from 400.0 to 700.0)
+
+*/
+
+@font-face {
+  font-family: "Quilon-Variable";
+  src: url("assets/fonts/Quilon-Variable.woff2") format("woff2"), url("assets/fonts/Quilon-Variable.woff") format("woff"),
+    url("assets/fonts/Quilon-Variable.ttf") format("truetype"), url("assets/fonts/Quilon-Variable.eot") format("eot");
+  font-weight: 400 700;
+  font-display: swap;
+  font-style: normal;
+}
+
+/**
+ * @license
+ *
+ * Font Family: Be Vietnam Pro
+ * Designed by: Lam Bao, Tony Le, Vietanh Nguyen
+ * URL: https://www.fontshare.com/fonts/beVietnam-pro
+ * © 2022 Indian Type Foundry
+ *
+ * Font Styles:
+ * Be Vietnam Pro Variable(Variable font)
+ * Be Vietnam Pro Variable Italic(Variable font)
+ *
+*/
+
+
+/**
+* This is a variable font
+* You can controll variable axes as shown below:
+* font-variation-settings: 'wght' 100.0;
+*
+* available axes:
+
+* 'wght' (range from 100.0 to 900.0)
+
+*/
+
+@font-face {
+  font-family: 'BeVietnamPro-Variable';
+  src: url('assets/fonts/BeVietnamPro-Variable.woff2') format('woff2'),
+       url('assets/fonts/BeVietnamPro-Variable.woff') format('woff'),
+       url('assets/fonts/BeVietnamPro-Variable.ttf') format('truetype')
+       url('assets/fonts/BeVietnamPro-Variable.eot') format('eot');
+       font-weight: 100 900;
+       font-display: swap;
+       font-style: normal;
+}
+
+@font-face {
+  font-family: 'BeVietnamPro-VariableItalic';
+  src: url('assets/fonts/BeVietnamPro-VariableItalic.woff2') format('woff2'),
+       url('assets/fonts/BeVietnamPro-VariableItalic.woff') format('woff'),
+       url('assets/fonts/BeVietnamPro-VariableItalic.ttf') format('truetype')
+       url('assets/fonts/BeVietnamPro-VariableItalic.eot') format('eot');
+       font-weight: 100 900;
+       font-display: swap;
+       font-style: italic;
+}
+
+
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;

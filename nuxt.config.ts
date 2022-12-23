@@ -1,13 +1,10 @@
 // https://nuxt.com/docs/api/configuration/nuxt-config
-// eslint-disable-next-line no-undef
+
 export default defineNuxtConfig({
-  css: ['~/assets/css/main.css'],
-  postcss: {
-    plugins: {
-      tailwindcss: {},
-      autoprefixer: {},
-    },
-  },
+  modules: [
+    '@nuxtjs/tailwindcss',
+  ],
+  css: ['@/assets/css/tailwind.css'],
   typescript: {
     shim: false,
   },
